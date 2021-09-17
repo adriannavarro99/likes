@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    background-color: rgb(15, 228, 104);
+    color: rgb(24, 14, 14);
+    padding: 20px;
+    margin-bottom: 30px;
+
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+    -webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+    -moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(139, 13, 212);
+    margin-bottom: 40px;
+    
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+}
+
+.pos1 {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+}
+
+.avatar {
+    padding: 20px;
+    border: 2px solid rgb(139, 13, 212);
+    text-align: center;
+
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+}
+
+
+
+
+.right {
+    flex: 2;
+    margin-left: 30px;
+}
+
+
+
+
+.post {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(139, 13, 212);
+    font-size: 1.2rem;
+
+
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.99);
+}
+.box {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+
+    
+}
+
+.like{
+    background-color: #47d323;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px rgb(10, 8, 8);
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
